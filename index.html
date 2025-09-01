@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Basics Demo</title>
+  </head>
+<body>
+  <h1>JavaScript Learning Playground </h1>
+
+  <!-- Part 1: Input & Conditionals -->
+  <section>
+    <h2>Basics</h2>
+    <input type="text" id="username" placeholder="Enter your name">
+    <button onclick="greetUser()">Say Hello</button>
+    <p id="greeting"></p>
+  </section>
+
+  <!-- Part 2: Functions -->
+  <section>
+    <h2>Functions</h2>
+    <input type="number" id="num1" placeholder="Number 1">
+    <input type="number" id="num2" placeholder="Number 2">
+    <button onclick="showSum()">Add Numbers</button>
+    <p id="sumResult"></p>
+  </section>
+
+  <!-- Part 3: Loops -->
+  <section>
+    <h2>Loops</h2>
+    <button onclick="countdown()">Start Countdown (3 to 1)</button>
+    <ul id="countdownList"></ul>
+  </section>
+
+  <!-- Part 4: DOM Manipulation -->
+  <section>
+    <h2>DOM</h2>
+    <button onclick="toggleMessage()">Toggle Secret Message</button>
+    <p id="secret" class="hidden">🎉 You found the secret message!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
